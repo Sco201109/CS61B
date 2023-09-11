@@ -3,7 +3,7 @@
  */
 public class LeapYear {
 
-    public static void isLeapYear(int year){
+    public static boolean isLeapYear(int year){
         if (year % 4 != 0){
             return 0;
         }else{
